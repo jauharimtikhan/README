@@ -1,4 +1,4 @@
-        <!doctype html>
+ <!doctype html>
             <html lang="en">
             <head>
                 <meta charset="utf-8">
@@ -16,12 +16,18 @@
                         background-repeat: no-repeat;
                         background-image: url('https://raw.githubusercontent.com/jauharimtikhan/README.md/restrict/restrict.png');
                     }
+                    ._container{
+                        min-height: 100vh;
+                        display: flex;
+                        align-items: start;
+                        justify-content: center;
+                    }
                 </style>
             </head>
 
             <body>
-                <div class="container py-5">
-                    <div class="card card-body">
+                <div class="_container _py-5">
+                    <div class="_card">
                         <div class="aktivasi-img"></div>
                         <h2 class="text-center text-danger">Silahkan Hubungi Developer Terlebih Dahulu, Untuk Mengaktifkan Project
                             ini.</h2>
